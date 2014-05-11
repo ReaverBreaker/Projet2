@@ -49,6 +49,8 @@ public class Marchandise {
 			return true;
 		return false;
 	}
+	
+	
 
 	@Override
 	public String toString(){// renvoie le nom de la marchandise et de sa reference

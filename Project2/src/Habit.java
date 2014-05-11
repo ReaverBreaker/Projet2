@@ -30,10 +30,14 @@ public class Habit  extends Marchandise{
 	@Override
 	public boolean equals(Object obj) {
 		Habit other = (Habit) obj;
-		if(super.equals(obj) && taille.equals(other.taille))
+		if(super.equals(obj) && taille.equals(other.taille)){
+			System.out.println("je suis rentrer");
 			return true;
+		}
 		return false;
 	}
+	
+	
 	
 	
 

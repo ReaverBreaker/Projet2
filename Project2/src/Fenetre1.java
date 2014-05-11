@@ -29,7 +29,7 @@ public class Fenetre1 extends JFrame implements ActionListener,ListSelectionList
     
     public Fenetre1(){
     	inter=new Interaction();
-        setTitle("M&I Shop");
+        setTitle("Deroute");
         setSize(800,600);
         this.setLayout(new GridLayout(4,1));
         
