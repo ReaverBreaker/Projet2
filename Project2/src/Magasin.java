@@ -8,22 +8,22 @@ public class Magasin implements CommandableAvecTaille,Commandable{
 	private HashMap<Marchandise,Integer> entrepot;
 	private Marchandise ObjetEnQuestion;
 	
-	Marchandise rds36=new Vetement(59.99,"1234506","36","robedesoiree");Marchandise rds38=new Vetement(59.99,"1234506","38","robedesoiree");Marchandise rds40=new Vetement(59.99,"1234506","40","robedesoiree");
+	Marchandise rds36=new Vetement(59.99,"1234506","36","robe de soiree");Marchandise rds38=new Vetement(59.99,"1234506","38","robe de soiree");Marchandise rds40=new Vetement(59.99,"1234506","40","robe de soiree");
 	
-	Marchandise riec38=new Vetement(35.45,"1238845","38","robeimprimeencoton");Marchandise riec40=new Vetement(35.45,"1238845","40","robeimprimeencoton");Marchandise riec42=new Vetement(35.45,"1238845","42","robeimprimeencoton");Marchandise riec44=new Vetement(35.45,"1238845","44","robeimprimeencoton");
+	Marchandise riec38=new Vetement(35.45,"1238845","38","robe imprime en coton");Marchandise riec40=new Vetement(35.45,"1238845","40","robe imprime en coton");Marchandise riec42=new Vetement(35.45,"1238845","42","robe imprime en coton");Marchandise riec44=new Vetement(35.45,"1238845","44","robe imprime en coton");
 	
-	Marchandise pj40=new Vetement(52.69,"1234507","40","pantalonjean");Marchandise pj42=new Vetement(52.69,"1234507","42","pantalonjean");Marchandise pj44=new Vetement(52.69,"1234507","44","pantalonjean");
+	Marchandise pj40=new Vetement(52.69,"1234507","40","pantalon jean");Marchandise pj42=new Vetement(52.69,"1234507","42","pantalon jean");Marchandise pj44=new Vetement(52.69,"1234507","44","pantalon jean");
 	
-	Marchandise pa38=new Vetement(32.45,"1204566","38","pullacrylique");Marchandise pa40=new Vetement(32.45,"1204566","40","pullacrylique");Marchandise pa42=new Vetement(32.45,"1204566","42","pullacrylique");Marchandise pa44=new Vetement(32.45,"1204566","44","pullacrylique");
+	Marchandise pa38=new Vetement(32.45,"1204566","38","pull acrylique");Marchandise pa40=new Vetement(32.45,"1204566","40","pull acrylique");Marchandise pa42=new Vetement(32.45,"1204566","42","pull acrylique");Marchandise pa44=new Vetement(32.45,"1204566","44","pull acrylique");
 	
-	Marchandise batE=new ElectroMenager(26.10,"2554507","batteurelectrique");
-	Marchandise rasE=new ElectroMenager(350.40,"2553563","rasoirelectrique");
+	Marchandise batE=new ElectroMenager(26.10,"2554507","batteur electrique");
+	Marchandise rasE=new ElectroMenager(350.40,"2553563","rasoir electrique");
 	Marchandise br=new ElectroMenager(125.40,"2552333","brand");
 	Marchandise we=new ElectroMenager(140.40,"2552332","weber");
-	Marchandise fmo=new ElectroMenager(120.90,"2004507","fourmicroonde");
+	Marchandise fmo=new ElectroMenager(120.90,"2004507","four micro-onde");
 	
-	Marchandise bcc=new Mobilier(420.50,"2002345","banquetteclicclac");
-	Marchandise bbz=new Mobilier(399.99,"2002330","braquettebz");
+	Marchandise bcc=new Mobilier(420.50,"2002345","banquette clic-clac");
+	Marchandise bbz=new Mobilier(399.99,"2002330","braquette bz");
 	Marchandise eta=new Mobilier(36.20,"2002320","etagere");
 	
 	Marchandise d00 = new Chaussure(70.00,"4567801", "36","Nike");
